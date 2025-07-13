@@ -7,12 +7,21 @@
   </head>
   <body>
     <form action="/action">
-      <input type="text" />
-      <input type="password" />
-      <input type="email" />
-      <input type="number" />
-      <input type="color" />
-      <input type="time" />
+      <div>
+        <label for="username">Name:</label>
+        <input type="text" placeholder="Username" id="username" />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Password" id="password" />
+      </div>
+      <!-- Different types of Buttons -->
+      <button>Type1</button>
+      <button type="button">Type2</button>
+      <button type="Reset">Type3</button>
+      <!-- Buttons with input elements -->
+      <input type="submit" />
+      <input type="button" value="submit" />
     </form>
   </body>
 </html>
