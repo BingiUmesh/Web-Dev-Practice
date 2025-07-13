@@ -25,6 +25,44 @@
           name="password"
         />
       </div>
+      <div>
+        <input type="checkbox" name="age" id="age" />
+        <label for="age">Iam 18+</label>
+      </div>
+      <div>
+        <input type="radio" name="profession" id="student" value="student" />
+        <label for="student">Student</label>
+        <input
+          type="radio"
+          name="profession"
+          id="developer"
+          value="developer"
+        />
+        <label for="developer">Developer</label>
+      </div>
+      <div>
+        <select name="college" id="college">
+          <option>Choose college</option>
+          <option value="jntuh">JNTUH</option>
+          <option value="jntuhcej">JNTUH CEJ</option>
+        </select>
+      </div>
+      <div>
+        <label for="volume">Volume</label>
+        <input
+          type="range"
+          name="volume"
+          id="volume"
+          min="0"
+          max="100"
+          step="10"
+        />
+      </div>
+      <div>
+        <label for="feedback">Give Your Feedback</label>
+        <br />
+        <textarea name="feedback" id="feedback" cols="30" rows="5"></textarea>
+      </div>
       <button>Submit</button>
     </form>
   </body>
